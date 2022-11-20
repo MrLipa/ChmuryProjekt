@@ -1,0 +1,23 @@
+npm run start
+npm run start
+
+docker image ls
+docker image rm react-image
+docker build .
+docker build -t react-image .
+docker run -d --name react-app react-image
+docker ps
+docker rm react-app -f
+# 3000->localhost   3000->odpalona
+docker run -d -p 3000:3000 --name react-app react-image
+docker exec -it react-app bash
+docker run -v C:\Users\tomek\OneDrive\Pulpit\projekt-docker\src:/app/src -d -p 3000:3000 --name react-app react-image
+docker run -e WATCHPACK_POLLING=true -v %cd%\src:/app/src -d -p 3000:3000 --name react-app react-image
+docker run -e CHOKIDAR_USEPOLLING=true -v %cd%\src:/app/src -d -p 3000:3000 --name react-app react-image
+docker run -e CHOKIDAR_USEPOLLING=true -v %cd%\src:/app/src:ro -d -p 3000:3000 --name react-app react-image
+docker run -it -e CHOKIDAR_USEPOLLING=true -v %cd%\src:/app/src:ro -d -p 3000:3000 --name react-app react-image
+docker-compose --help
+docker-compose up --help
+docker-compose up -d
+docker-compose up --build react-app
+docker-compose down
