@@ -1,8 +1,9 @@
 import { FaFacebookF,FaTwitter,FaYoutube,FaGooglePlus } from "react-icons/fa";
 import { Carousel,Container,Col,Row } from 'react-bootstrap';
-import slide1 from '../images/4.jpg';
+import slide1 from '../images/1.jpg';
 import slide2 from '../images/2.jpg';
 import slide3 from '../images/3.jpg';
+import slide4 from '../images/4.jpg';
 
 const Home = () => {
     
@@ -11,7 +12,7 @@ const Home = () => {
             <Container className="mt-1">
                 <Row className="justify-content-md-center">
                     <Col md="12">
-                        <h1>Welcome to IS-wiki</h1>
+                        <h1>Welcome to Flight Planner</h1>
                         <br/><br/>
                     </Col>
                 </Row>
@@ -39,6 +40,15 @@ const Home = () => {
                     <img
                         className="d-block w-100"
                         src={slide3}
+                        alt="First slide"
+                        height={750}
+                        width={1260}
+                    />
+                </Carousel.Item>
+                <Carousel.Item interval={1000}>
+                    <img
+                        className="d-block w-100"
+                        src={slide4}
                         alt="First slide"
                         height={750}
                         width={1260}

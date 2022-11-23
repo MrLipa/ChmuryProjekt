@@ -60,6 +60,119 @@ body::before {
   }
 }
 /* 
+--------------------Register--------------------
+*/
+.register {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+.register h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.register input, .register textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.register button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: rgb(205, 109, 109);
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+  margin-bottom:15px;
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+.hide {
+  display: none;
+}
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.line {
+  display: inline-block;
+}
+/* 
+--------------------Login--------------------
+*/
+.login {
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.login label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+.login h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.login input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* 
 --------------------Home--------------------
 */
 .background

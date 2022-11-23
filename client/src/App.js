@@ -1,10 +1,13 @@
 import Home from './components/Home';
 import Layout from './components/Layout';
-import Lecturers from './components/Lecturers';
-import Courses from './components/Courses';
-import Profil from './components/Profil';
+import Register from './components/Register';
+import Login from './components/Login';
+import AddAirport from './components/AddAirport';
+import Search from './components/Search';
 import Missing from './components/Missing';
+import Unauthorized from './components/Unauthorized';
 import { Routes, Route } from 'react-router-dom';
+import RequireAuth from './components/RequireAuth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,9 +16,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="courses" element={<Courses />} />
-        <Route path="lecturers" element={<Lecturers />} />
-        <Route path="profil" element={<Profil />} />
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
+        <Route path="addAirport" element={<AddAirport />} />
+        <Route path="unauthorized" element={<Unauthorized />} />
+        <Route path="search" element={<Search />} />
         <Route path="*" element={<Missing />} />
       </Route>
     </Routes>
