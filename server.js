@@ -20,6 +20,7 @@ app.use(cookieParser());
 
 app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/airport', require('./src/routes/airport'));
+app.use('/connection', require('./src/routes/connection'));
 
 app.use('/register', require('./src/routes/register'));
 app.use('/auth', require('./src/routes/auth'));

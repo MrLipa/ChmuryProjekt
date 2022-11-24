@@ -18,9 +18,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
-        <Route path="addAirport" element={<AddAirport />} />
+        <Route element={<RequireAuth/>}>
+          <Route path="addAirport" element={<AddAirport />} />
+        </Route>
+        <Route element={<RequireAuth/>}>
+          <Route path="search" element={<Search />} />
+        </Route>
         <Route path="unauthorized" element={<Unauthorized />} />
-        <Route path="search" element={<Search />} />
         <Route path="*" element={<Missing />} />
       </Route>
     </Routes>

@@ -8,9 +8,4 @@ router.post('/', airportsController.createNewAirport)
 router.put('/:id', airportsController.updateAirport)
 router.delete('/:id', airportsController.deleteAirport)
 
-router.post('/connect/collect', airportsController.findConnections)
-router.get('/connect', airportsController.getAllConnections)
-router.post('/connect', airportsController.createNewConnection)
-router.post('/connect/path', airportsController.findPath)
-
 module.exports = router;

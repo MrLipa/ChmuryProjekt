@@ -26,7 +26,8 @@ const AddAirport = () => {
         .then((response) =>
         {
             setList(response.data.filter((airport)=>{return !country_filter.length?true:country_filter.includes(airport[1])}));
-            setOptions(response.data.map((airport)=>{return { value: airport[1], label: airport[1], color: '#FF8B00' }}));
+            const temp_options = Array.from(new Set(response.data.map((airport)=>{return airport[1]})))
+            setOptions(temp_options.map((airport)=>{return { value: airport, label: airport, color: '#FF8B00' }}));
         });
         
     }, []);

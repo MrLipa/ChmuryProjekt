@@ -75,57 +75,6 @@ const deleteAirport = async(req, res) =>{
         res.status(400).json(err.message);
     }
 }
-const findConnections = async(req, res) =>{
-    try {
-        const {id_airport_A,id_airport_B} = req.body;
-        if (id_airport)
-            Todo = await session.run(`MATCH (a:Airport)-[r:CONNECTION]-(b:Airport) WHERE id(a)=${id_airport_A} RETURN a, b`);
-        else if (country)
-            Todo = await session.run(`MATCH (a:Airport)-[r:CONNECTION]-(b:Airport) WHERE id(b)=${id_airport_B} RETURN a, b`);
-        if(Todo)
-        {
-          res.json('Create new connection');
-        }
-    } catch (err) {
-        res.status(400).json(err.message);
-    }
-}
-const getAllConnections = async(req, res) =>{
-    try {
-        const {id_airport_A,id_airport_B,distance} = req.body;
-        const Todo = await session.run(`MATCH (a:Airport)-[r:CONNECTION]-(b:Airport) RETURN a, b`)
-        if(Todo)
-        {
-          res.json('Create new connection');
-        }
-    } catch (err) {
-        res.status(400).json(err.message);
-    }
-}
-const createNewConnection = async(req, res) =>{
-    try {
-        const {id_airport_A,id_airport_B,distance} = req.body;
-        const Todo = await session.run(`MATCH (a:Airport), (b:Airport) WHERE ID(a)=${id_airport_A}  AND ID(b)=${id_airport_B}  CREATE (a)-[c:CONNECTION {distance: ${distance} }]->(b) RETURN type(c), c.distance`)
-        if(Todo)
-        {
-          res.json('Create new connection');
-        }
-    } catch (err) {
-        res.status(400).json(err.message);
-    }
-}
-const findPath = async(req, res) =>{
-    try {
-        const {id_airport_A,id_airport_B,distance} = req.body;
-        const Todo = await session.run(`MATCH (a:Airport), (b:Airport) WHERE ID(a)=${id_airport_A}  AND ID(b)=${id_airport_B}  CREATE (a)-[c:CONNECTION {distance: ${distance} }]->(b) RETURN type(c), c.distance`)
-        if(Todo)
-        {
-          res.json('Create new connection');
-        }
-    } catch (err) {
-        res.status(400).json(err.message);
-    }
-}
 
 
 module.exports = {
@@ -134,9 +83,5 @@ module.exports = {
     createNewAirport,
     updateAirport,
     deleteAirport,
-    findConnections,
-    getAllConnections,
-    createNewConnection,
-    findPath
 }
    

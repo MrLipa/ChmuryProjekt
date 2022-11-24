@@ -1,0 +1,139 @@
+[
+  [
+    {
+      "start": {
+        "identity": {
+          "low": 5,
+          "high": 0
+        },
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "city": "A"
+        },
+        "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:5"
+      },
+      "end": {
+        "identity": {
+          "low": 24,
+          "high": 0
+        },
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "city": "E"
+        },
+        "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:24"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": {
+              "low": 5,
+              "high": 0
+            },
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "city": "A"
+            },
+            "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:5"
+          },
+          "relationship": {
+            "identity": {
+              "low": 29,
+              "high": 0
+            },
+            "start": {
+              "low": 5,
+              "high": 0
+            },
+            "end": {
+              "low": 9,
+              "high": 0
+            },
+            "type": "CONNECTION",
+            "properties": {
+              "distance": {
+                "low": 100,
+                "high": 0
+              }
+            },
+            "elementId": "5:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:29",
+            "startNodeElementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:5",
+            "endNodeElementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:9"
+          },
+          "end": {
+            "identity": {
+              "low": 9,
+              "high": 0
+            },
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "city": "F"
+            },
+            "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:9"
+          }
+        },
+        {
+          "start": {
+            "identity": {
+              "low": 9,
+              "high": 0
+            },
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "city": "F"
+            },
+            "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:9"
+          },
+          "relationship": {
+            "identity": {
+              "low": 30,
+              "high": 0
+            },
+            "start": {
+              "low": 9,
+              "high": 0
+            },
+            "end": {
+              "low": 24,
+              "high": 0
+            },
+            "type": "CONNECTION",
+            "properties": {
+              "distance": {
+                "low": 100,
+                "high": 0
+              }
+            },
+            "elementId": "5:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:30",
+            "startNodeElementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:9",
+            "endNodeElementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:24"
+          },
+          "end": {
+            "identity": {
+              "low": 24,
+              "high": 0
+            },
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "city": "E"
+            },
+            "elementId": "4:0c9534f1-5dff-4c88-ad6b-20a2bfd3c243:24"
+          }
+        }
+      ],
+      "length": 2
+    }
+  ]
+]
