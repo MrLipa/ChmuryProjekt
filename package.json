@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mui/x-data-grid": "^5.17.12",
     "bcrypt": "^5.1.0",
     "body-parser": "*",
     "cookie-parser": "^1.4.6",

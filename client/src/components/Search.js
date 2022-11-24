@@ -73,14 +73,14 @@ const Search = () => {
     return (
         <Container>
             <h1>Flights</h1>
-            <Tabs defaultActiveKey="profile" id="fill-tab-example" className="mb-3 mt-4" fill>
+            <Tabs defaultActiveKey="profile" id="fill-tab-example" className="mb-3 mt-4" fill variant="primary">
                 <Tab eventKey="connections" title="Connections">
                     <TableContainer
                         columns={columns}
                         data={data}
                     />
                 </Tab>
-                <Tab eventKey="find_path" title="Find path">
+                <Tab eventKey="find_path" title="Find path" >
                     <form className="col-8 mx-auto my-5" onSubmit={choice?getShortestPath:getFastestPath}>
                         <div className="form-group my-3">
                             <label>City Out</label>
