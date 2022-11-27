@@ -26,3 +26,6 @@
  in JSON at position 25
 20221124	11:36:44	b2a5a962-ba9e-4367-b020-625fe50ec61f	SyntaxError: Unexpected token 
  in JSON at position 25
+20221126	23:02:28	b922169c-7879-4453-a306-8b7e6e36ec4d	Error: ENOENT: no such file or directory, stat '/app/client/build/index.html'
+20221126	23:52:57	d920e12c-834b-4a87-b83d-9c6ece520640	SyntaxError: Unexpected token } in JSON at position 24
+20221127	01:01:53	db764260-327d-4b30-871e-5dcc340fb026	SyntaxError: Unexpected string in JSON at position 29

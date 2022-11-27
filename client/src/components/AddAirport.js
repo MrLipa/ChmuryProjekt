@@ -39,6 +39,8 @@ const AddAirport = () => {
         {
             setList(response.data.filter((airport)=>{return !country_filter.length?true:country_filter.includes(airport[1])}));
             setOptions(response.data.map((airport)=>{return { value: airport[1], label: airport[1], color: '#FF8B00' }}));
+        }).catch((err) =>{
+            alert(err);
         });
     }
 
@@ -49,6 +51,8 @@ const AddAirport = () => {
         {
             setList(response.data.filter((airport)=>{return !country_filter.length?true:country_filter.includes(airport[1])}));
             setOptions(response.data.map((airport)=>{return { value: airport[1], label: airport[1], color: '#FF8B00' }}));
+        }).catch((err) =>{
+            alert(err);
         });
     }
 
@@ -58,6 +62,8 @@ const AddAirport = () => {
         {
             setList(response.data.filter((airport)=>{return !country_filter.length?true:country_filter.includes(airport[1])}));
             setOptions(response.data.map((airport)=>{return { value: airport[1], label: airport[1], color: '#FF8B00' }}));
+        }).catch((err) =>{
+            alert(err);
         });
     }
     
@@ -66,12 +72,13 @@ const AddAirport = () => {
         axiosInstance.post('airport/collect',{city: city})
         .then((response) =>
         {
-            console.log({id_airport_A: id_airport, id_airport_B: response.data[0][0], distance: distance})
-            axiosInstance.post('airport/connect',{id_airport_A: id_airport, id_airport_B: response.data[0][0], distance: distance})
+            axiosInstance.post('connection/',{id_airport_A: id_airport, id_airport_B: response.data[0][0], distance: distance})
             .then((response) =>
             {
-                ;
+                alert(response.data);
             });
+        }).catch((err) =>{
+            alert(err);
         });
         
     }

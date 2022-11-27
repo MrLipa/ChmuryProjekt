@@ -58,7 +58,7 @@ const findShortestPath = async(req, res) =>{
           res.json(result);
         }
     } catch (err) {
-        res.status(400).json(err.message);
+        res.status(400).json('err.message');
     }
 }
 const findFastestPath = async(req, res) =>{

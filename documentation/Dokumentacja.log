@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.11.20)  20 NOV 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.11.20)  27 NOV 2022 01:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -26,9 +26,7 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
- (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/base\cp1250.def
-File: cp1250.def 2021/02/14 v1.3d Input encoding file
-)) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
 Package: polski 2021/08/25 v1.3.6 Polish language package
 
    Inputenc package detected. Catcodes not changed.
@@ -233,87 +231,448 @@ Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-))) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+))) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks25
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen166
+\WF@size=\dimen167
+\c@WF@wrappedlines=\count276
+\WF@box=\box52
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count277
+\c@subtable=\count278
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count279
+\calc@Bcount=\count280
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count281
+\calc@Cskip=\skip63
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count282
+\l_MT_multwidth_dim=\dimen170
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen171
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen172
+\l_MT_above_intertext_sep=\dimen173
+\l_MT_below_intertext_sep=\dimen174
+\l_MT_above_shortintertext_sep=\dimen175
+\l_MT_below_shortintertext_sep=\dimen176
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen177
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen178
+\enit@toks=\toks27
+\enit@inbox=\box54
+\enit@count@id=\count283
+\enitdp@description=\count284
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count285
+\mult@box=\box55
+\multicol@leftmargin=\dimen179
+\c@unbalance=\count286
+\c@collectmore=\count287
+\doublecol@number=\count288
+\multicoltolerance=\count289
+\multicolpretolerance=\count290
+\full@width=\dimen180
+\page@free=\dimen181
+\premulticols=\dimen182
+\postmulticols=\dimen183
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box56
+\last@line=\box57
+\maxbalancingoverflow=\dimen184
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count291
+\c@columnbadness=\count292
+\c@finalcolumnbadness=\count293
+\last@try=\dimen185
+\multicolovershoot=\dimen186
+\multicolundershoot=\dimen187
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count294
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count295
+\lst@gtempboxa=\box100
+\lst@token=\toks28
+\lst@length=\count296
+\lst@currlwidth=\dimen188
+\lst@column=\count297
+\lst@pos=\count298
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count299
+\lst@lineno=\count300
+\lst@maxwidth=\dimen191
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count301
+\lst@skipnumbers=\count302
+\lst@framebox=\box101
+) (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box102
 ) (Dokumentacja.aux)
 \openout1 = `Dokumentacja.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen158
-\scratchbox=\box53
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen159
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count304
+\scratchdimen=\dimen192
+\scratchbox=\box103
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen193
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks30
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex:14: LaTeX Error: Command \guilsinglright unavailable in encoding OT4.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 26.
+\c@lstlisting=\count310
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=513.11745pt
+* \textheight=693.79243pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-58.68121pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 asdasdads ąś
-                   ćąś
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<AGH.png, id=1, 1204.5pt x 1204.5pt>
+File: AGH.png Graphic file (type png)
+<use AGH.png>
+Package pdftex.def Info: AGH.png  used on input line 40.
+(pdftex.def)             Requested size: 180.6672pt x 180.6672pt.
+LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 45.
+(C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
+File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+) (Dokumentacja.toc)
+\tf@toc=\write3
+\openout3 = `Dokumentacja.toc'.
+
+ [1
 
 
-c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex:14: LaTeX Error: Command \guilsinglright unavailable in encoding OT4.
+{C:/Users/tomek/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./AGH.png>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 asdasdads ąśćąś
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<6.png, id=12, 1184.0235pt x 938.3055pt>
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 83.
+(pdftex.def)             Requested size: 223.1329pt x 176.81952pt.
+<8.png, id=13, 1184.0235pt x 973.83826pt>
+File: 8.png Graphic file (type png)
+<use 8.png>
+Package pdftex.def Info: 8.png  used on input line 88.
+(pdftex.def)             Requested size: 223.1329pt x 183.51552pt.
 
-[1
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 81--91
+[][] [] 
+ []
 
-{C:/Users/tomek/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Dokumentacja.aux) ) 
+[2
+
+
+
+ <./6.png> <./8.png>]
+<10.png, id=21, 907.39pt x 738.76pt>
+File: 10.png Graphic file (type png)
+<use 10.png>
+Package pdftex.def Info: 10.png  used on input line 97.
+(pdftex.def)             Requested size: 446.26582pt x 363.32571pt.
+ [3 <./10.png>]
+<9.png, id=26, 531.78674pt x 483.0045pt>
+File: 9.png Graphic file (type png)
+<use 9.png>
+Package pdftex.def Info: 9.png  used on input line 109.
+(pdftex.def)             Requested size: 465.06004pt x 422.39941pt.
+ [4 <./9.png>]
+<1.png, id=31, 1120.185pt x 633.567pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 123.
+(pdftex.def)             Requested size: 281.85587pt x 159.4161pt.
+<2.png, id=32, 1205.7045pt x 869.04675pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 128.
+(pdftex.def)             Requested size: 328.82707pt x 237.00613pt.
+ [5 <./1.png> <./2.png>]
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 133.
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 133.
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMX+plex on input line 133.
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 133.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 133.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
+ (C:\Users\tomek\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<4.png, id=38, 1121.99174pt x 957.5775pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 138.
+(pdftex.def)             Requested size: 312.3847pt x 266.60028pt.
+<5.png, id=39, 1141.866pt x 926.2605pt>
+File: 5.png Graphic file (type png)
+<use 5.png>
+Package pdftex.def Info: 5.png  used on input line 144.
+(pdftex.def)             Requested size: 200.81825pt x 162.8895pt.
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 149.
+(pdftex.def)             Requested size: 200.81825pt x 159.13757pt.
+ [6 <./4.png> <./5.png>]
+<7.png, id=47, 1156.92226pt x 950.3505pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 157.
+(pdftex.def)             Requested size: 258.36668pt x 212.2245pt.
+File: 8.png Graphic file (type png)
+<use 8.png>
+Package pdftex.def Info: 8.png  used on input line 165.
+(pdftex.def)             Requested size: 258.36668pt x 212.49165pt.
+ [7 <./7.png>]
+Overfull \hbox (9.4738pt too wide) in paragraph at lines 183--185
+\OT4/cmr/m/it/12 https://neo4j.com/docs/cypher-manual/current/execution-plans/shortestpath-planning/ 
+ []
+
+
+AED: lastpage setting LastPage
+[8] (Dokumentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 5663 strings out of 478582
- 100109 string characters out of 2844343
- 409667 words of memory out of 3000000
- 23783 multiletter control sequences out of 15000+600000
- 470389 words of font info for 31 fonts, out of 8000000 for 9000
+ 9682 strings out of 478582
+ 163215 string characters out of 2844343
+ 481191 words of memory out of 3000000
+ 27703 multiletter control sequences out of 15000+600000
+ 478341 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,5n,106p,342b,130s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\tomek\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}<C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb>
-Output written on Dokumentacja.pdf (1 page, 8483 bytes).
+ 108i,9n,106p,572b,530s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plit.enc}{C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc} <C:\Users\tomek\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plss17.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/tomek/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb>
+Output written on Dokumentacja.pdf (8 pages, 800599 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

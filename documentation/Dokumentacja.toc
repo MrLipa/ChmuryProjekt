@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Opis projektu, koncepcji i założeń}{2}{}%
+\contentsline {section}{\numberline {2}Krótki opis architektury}{3}{}%
+\contentsline {section}{\numberline {3}Zastosowane narzędzia i technologie}{3}{}%
+\contentsline {section}{\numberline {4}Reprezentacja grafowa}{4}{}%
+\contentsline {section}{\numberline {5}Prezentacja działania aplikacji}{5}{}%
+\contentsline {section}{\numberline {6}Wdrożenie aplikacji}{8}{}%
+\contentsline {section}{\numberline {7}Ewentualne usprawnienia możliwe do wykonania}{8}{}%
+\contentsline {section}{\numberline {8}Literatura}{8}{}%

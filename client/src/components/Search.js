@@ -28,7 +28,9 @@ const Search = () => {
         .then((response) =>
         {
             setPath(response.data);
-        })
+        }).catch((err) =>{
+            alert(err);
+        });
     }
 
     const getFastestPath = (event) =>{
@@ -37,7 +39,9 @@ const Search = () => {
         .then((response) =>
         {
             setPath(response.data);
-        })
+        }).catch((err) =>{
+            alert(err);
+        });
     }
   
     const columns = useMemo(
