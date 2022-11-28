@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1669508490 "c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex" "Dokumentacja.pdf" "Dokumentacja" 1669508494
+["pdflatex"] 1669543530 "c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex" "Dokumentacja.pdf" "Dokumentacja" 1669543534
   "1.png" 1669423341 54230 fad498ddf678b877bcfbd1c64825cbc4 ""
   "10.png" 1669483253 49175 e2551169f17649f092f2d1fe0e93c1a6 ""
   "2.png" 1669423373 96506 f25c845a3959e270665809a61ddb76a6 ""
@@ -112,9 +112,9 @@
   "C:/Users/tomek/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636710260 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "C:/Users/tomek/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/tomek/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "Dokumentacja.aux" 1669508493 1891 635ccb87fa3f0c433d22805426ebbb6c "pdflatex"
-  "Dokumentacja.toc" 1669508493 602 f5c610d5197f30deb6d63fc76636e6b4 "pdflatex"
-  "c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex" 1669508489 9142 c0168d8c3ac0b2619d7e61b359146a26 ""
+  "Dokumentacja.aux" 1669543534 1891 635ccb87fa3f0c433d22805426ebbb6c "pdflatex"
+  "Dokumentacja.toc" 1669543534 602 f5c610d5197f30deb6d63fc76636e6b4 "pdflatex"
+  "c:/Users/tomek/OneDrive/Pulpit/Projekt/documentation/Dokumentacja.tex" 1669543529 9257 584156adda0251435c8f0a9ee4bc4334 ""
   (generated)
   "Dokumentacja.aux"
   "Dokumentacja.log"

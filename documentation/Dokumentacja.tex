@@ -170,6 +170,7 @@ Ostatnim wierszem w tabeli jest wybrany cel podróży
 Aplikacje można uruchomić z pomocą kontenera utworzonego za pomocą pliku Dockerfile.\\
 Wykonując komendę "docker-compose up -d" budujemy uprzednio obraz react-image (jeśli taki jeszcze nie istniał), następnie
 kopiuje odpowiednie foldery z projektu, a następnie instalowane są potrzebne moduły komendą npm install. Potem budowana jest aplikacja reactowa komendą npm run build, a następnie odpalany jest server, który obsługuje komunikacje z bazą danych oraz wyświetla aplikacje posługując sie uprzedni zbudowanym klientem.\\
+Czasami potrzebne jest przejście do folderu client i wykonać komende npm install oraz npm run build jeszcze raz
 Aplikacja działa za pomocą kontenera Docker, ponieważ platformy takie jak Heroku czy IBM nie pozwalają już na bezpłatnością uruchomienie aplikacji na serwerze.
 
 \section{Ewentualne usprawnienia możliwe do wykonania}
