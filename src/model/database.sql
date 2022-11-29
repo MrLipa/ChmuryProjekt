@@ -19,8 +19,6 @@ CREATE TABLE projekt.token (
   token VARCHAR(255)
 );
 
-INSERT INTO projekt.register (firstName,lastName,email,password) VALUES('admin','admin','admin','$2b$10$pp1X08BkBhZCcBMF8KBaW.NvsVwXFNeUbWz560BM1LVHnSlYK/q8i');
-
 SELECT * FROM projekt.register LIMIT 100;
 
 MATCH(a) DETACH DELETE a;

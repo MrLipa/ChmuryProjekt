@@ -78,10 +78,11 @@ const Register = () => {
 
             templateParams.firstName=e.target[0].value
             templateParams.lastName=e.target[1].value
-            templateParams.email=e.target[3].value
+            templateParams.email=e.target[2].value
             templateParams.random=''+Math.floor(Math.random()*10)+Math.floor(Math.random()*10)+Math.floor(Math.random()*10)+Math.floor(Math.random()*10)
 
             setParam(templateParams)
+            console.log(templateParams)
             emailjs.send('service_vgam257', 'template_1wgb8ed',templateParams, 'ZNxfGZ-mDX0Y6JECh')
             .then((result) => {
                 console.log(result.text);

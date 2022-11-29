@@ -1,5 +1,6 @@
 node_modules
 documentation
+build
 commands.txt
 Dockerfile
 .git
@@ -7,3 +8,5 @@ Dockerfile
 .dockerignore
 docker-compose
 README.md
+client/README.md
+client/node_modules
