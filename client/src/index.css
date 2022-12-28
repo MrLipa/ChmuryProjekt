@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* 
+--------------------General--------------------
+*/
+* {
+  font-family: "Quicksand" !important;
+  color: #333;
+}
+body {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+body::before {    
+  content: "";
+  width:100%;
+  height:100%;
+  background-image: url('./images/d.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 75% 75%;
+  background-position: center bottom;
+  background-attachment:fixed; 
+  position:fixed;
+  pointer-events: none;
+  top: 0px;
+  right: 0px;
+  bottom: 0%;
+  left: 0px;
+  opacity: 0.04;
+}
+.content {
+  max-width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+}
+/* 
+--------------------Navbar--------------------
+*/
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  border-radius: 10px;
+  white-space: nowrap !important;
+}
+
+.nav-link:hover {
+  color: rgb(255,255,255);
+  background-color: #f1356d;
+}
+
+@media only screen and (max-width: 991px) {
+  .d-flex {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+}
+/* 
+--------------------Register--------------------
+*/
+.register {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+.register h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.register input, .register textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.register button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: rgb(205, 109, 109);
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+  margin-bottom:15px;
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+.hide {
+  display: none;
+}
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.line {
+  display: inline-block;
+}
+/* 
+--------------------Login--------------------
+*/
+.login {
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.login label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+.login h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.login input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* 
+--------------------Home--------------------
+*/
+.background
+{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1160px;
+  margin-left: -6%;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 1px 1px black;
+}
+.home-section{
+  text-align: center;
+}
+.background svg:hover{
+  filter: contrast(200%);
+  border-radius: 100px;
+  background-color: rgb(190, 151, 151);
+}
+.socials
+{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 1000px;
+  height: 195px;
+  margin-left:auto;
+  margin-right:auto;
+	text-align: center;
+  align-items: center;
+}
+
+.fb
+{
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+/* 
+--------------------Footer--------------------
+*/
+footer
+{
+  margin-top: 50px;
+  padding: 30px 0;
+  text-align: center;
+  background: #9ea0a2;
+}

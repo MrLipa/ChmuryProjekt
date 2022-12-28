@@ -1,0 +1,17 @@
+version: "3"
+services: 
+  react-app:
+    build: .
+    image: react-image
+    container_name: react-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app/client
+      - ./src:/app/src
+      - ./server.js:/app/server.js
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    env_file:
+      - ./.env
